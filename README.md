@@ -1,20 +1,20 @@
 # Mizu Nexus
 *Android TV 11 Launcher & Cloud OS Gateway*
 
-Mizu Nexus es el launcher oficial que transforma cualquier Android TV 11 (API 30) en una puerta de entrada al **Mizu Cloud OS**: un sistema operativo 100 % web que arranca en segundos, funciona sin conexión tras la primera carga y se controla solo con el mando a distancia.
+Mizu Nexus es el launcher oficial que transforma cualquier Android TV 11 (API 30) en una puerta de entrada al **Mizu Cloud OS**: un sistema operativo 100 % web que arranca en segundos, funciona sin conexiï¿½n tras la primera carga y se controla solo con el mando a distancia.
 
-| Características clave |
+| Caracterï¿½sticas clave |
 |-----------------------|
 | ? **Launcher nativo** Kotlin + Jetpack Leanback  |
 | ? **WebView 118** con Service Worker para PWA offline  |
-| ? **Navegación TV-first** (D-pad, OK, Back)  |
-| ? **Sin hardware nueva** – pensado para próximos 5-10 años  |
-| ? **Repositorio abierto** – AGPL-3.0 License  |
+| ? **Navegaciï¿½n TV-first** (D-pad, OK, Back)  |
+| ? **Sin hardware nueva** ï¿½ pensado para prï¿½ximos 5-10 aï¿½os  |
+| ? **Repositorio abierto** ï¿½ AGPL-3.0 License  |
 
 ## ?? Primer arranque
 1. Instala \pp-debug.apk\ en tu Android TV 11.  
-2. Al abrir Nexus se lanza automáticamente el **Mizu Cloud OS** (PWA).  
-3. Después del primer load todo queda cacheado; funciona incluso sin red.
+2. Al abrir Nexus se lanza automï¿½ticamente el **Mizu Cloud OS** (PWA).  
+3. Despuï¿½s del primer load todo queda cacheado; funciona incluso sin red.
 
 ## ??? Desarrollo
 \\\ash
@@ -29,8 +29,8 @@ git clone https://github.com/mizulegendsstudios/mizu_nexus.git
 - **Vector drawables** y **Leanback** para TV
 
 ## ??? Roadmap
-- [ ] Integración Widevine L1 para streaming 4 K  
-- [ ] Tema dinámico según wallpaper  
+- [ ] Integraciï¿½n Widevine L1 para streaming 4 K  
+- [ ] Tema dinï¿½mico segï¿½n wallpaper  
 - [ ] OTA dentro del Cloud OS  
 
 > Built with ?? by [Mizu Legends Studios](https://github.com/mizulegendsstudios)

@@ -1,9 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main_browse_fragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    tools:deviceIds="tv"
-    tools:ignore="MergeRootFrame" />
+    android:background="#020202"
+    android:padding="32dp">
+
+    <!-- Reloj y estado de red -->
+    <LinearLayout
+        android:id="@+id/top_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        tools:ignore="RelativeOverlap,UseCompoundDrawables">
+
+        <TextView
+            android:id="@+id/clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clock_placeholder"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp" />
+
+        <ImageView
+            android:id="@+id/wifi_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_wifi" />
+    </LinearLayout>
+
+    <!-- Botón Configuración -->
+    <ImageView
+        android:id="@+id/settings_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:importantForAccessibility="no"
+        android:src="@android:drawable/ic_menu_preferences" />
+
+    <!-- Grid de apps -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/apps_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_bar"
+        android:layout_marginTop="32dp" />
+
+</RelativeLayout>

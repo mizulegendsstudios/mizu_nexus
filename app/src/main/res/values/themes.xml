@@ -1,4 +1,12 @@
 <resources>
 
     <style name="Theme.MizuNexus" parent="@style/Theme.Leanback" />
+    <!-- In styles.xml or themes.xml -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorPrimaryVariant">@color/my_light_primary_variant</item>
+        <item name="colorOnPrimary">@color/my_light_on_primary</item>
+        <!-- ... other attributes -->
+    </style>
 </resources>
